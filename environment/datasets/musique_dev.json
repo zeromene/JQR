@@ -1,0 +1,11 @@
+{
+  "dataset": "MuSiQue-Ans v1.0",
+  "split": "dev",
+  "revision": "c8f4f8c9465fb69d31a8eae894c3fd509c4ca321",
+  "sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+  "bytes": 30439728,
+  "url": "https://hf-mirror.com/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/musique_ans_v1.0_dev.jsonl?download=1",
+  "upstream": "https://github.com/StonyBrookNLP/musique",
+  "trust_scope": "Pinned third-party mirror LFS; not directly compared to official Drive archive",
+  "qa_contents_inspected_by_download": false
+}

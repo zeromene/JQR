@@ -1,0 +1,39 @@
+{
+  "repository": "microsoft/deberta-v3-base",
+  "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+  "upstream_metadata_sha256": "f98193ac477a41be1fcb6d63442b9df11b06a0ca22f3c98f35a5ca58971b78e7",
+  "files": [
+    {
+      "name": "README.md",
+      "size": 3472,
+      "sha256": "7e9ea69ca00d0609cc0e0b9cec76f9ba6ae71601244c4136a3f25bd02dce4c4d",
+      "git_blob_sha1": "340cb56cdc9bb884bb1857d8fb5013d8f17a6a82"
+    },
+    {
+      "name": "config.json",
+      "size": 579,
+      "sha256": "649f6a1ec33c6bdd9a6486d5c66019d461139e54957073eafe9bbc2d34c75b0b",
+      "git_blob_sha1": "904b7ba900060d5ff61289fb29bee393189716c7"
+    },
+    {
+      "name": "pytorch_model.bin",
+      "size": 371146213,
+      "sha256": "691d48a2800b926a19e3051def466fc2cca4f59a15e42ce4a0cf7f1b380b5e33",
+      "git_blob_sha1": "02c3b6de8c436b7ba0cdff1da02909a142289cd8"
+    },
+    {
+      "name": "spm.model",
+      "size": 2464616,
+      "sha256": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+      "git_blob_sha1": "f8a64f8c4d0676966e36e93910742fde2ec256eb"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 52,
+      "sha256": "3f3978e0c036f2c2588cac34a6047cbb0af0b0dc1814254e291028529805496d",
+      "git_blob_sha1": "acfd94e399c5659e4bed75f91b4ee24b111fc7a6"
+    }
+  ],
+  "upstream_hashes_verified": true,
+  "purpose": "pretrained backbone only; no MuSiQue checkpoint"
+}

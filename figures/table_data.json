@@ -1,0 +1,1476 @@
+{
+  "main_labels": {
+    "dense_sentence": "Dense retrieval",
+    "qwen_rerank_sentence": "Reranker + packing",
+    "recomp_sentence": "RECOMP-NQ~\\cite{ref8}",
+    "recomp_hotpot_sentence": "RECOMP-Hotpot~\\cite{ref8}",
+    "exit_budgeted": "EXIT$^{\\dagger}$~\\cite{ref2}",
+    "llmlingua2_all20": "LLMLingua-2~\\cite{ref9}",
+    "longrefiner_budgeted_repair_v1": "LongRefiner$^{\\dagger}$~\\cite{longrefiner}",
+    "compact_budgeted": "CompAct$^{\\dagger}$~\\cite{ref4}",
+    "brief_pro_auto_cap": "BRIEF-Pro~\\cite{ref3}",
+    "quote_anchor": "\\textbf{JQR}"
+  },
+  "appendix_labels": {
+    "dense_sentence": "Dense retrieval",
+    "qwen_rerank_sentence": "Reranker + packing",
+    "recomp_sentence": "RECOMP-NQ~\\cite{ref8}",
+    "recomp_hotpot_sentence": "RECOMP-Hotpot~\\cite{ref8}",
+    "exit_budgeted": "EXIT$^{\\dagger}$~\\cite{ref2}",
+    "llmlingua2_all20": "LLMLingua-2~\\cite{ref9}",
+    "longrefiner_budgeted_repair_v1": "LongRefiner$^{\\dagger}$~\\cite{longrefiner}",
+    "compact_budgeted": "CompAct$^{\\dagger}$~\\cite{ref4}",
+    "brief_pro_auto_cap": "BRIEF-Pro~\\cite{ref3}",
+    "quote_anchor": "\\textbf{JQR}",
+    "qwen4x_llmlingua2": "Reranker + LLMLingua-2",
+    "brief_pro_auto_native": "BRIEF-Pro (uncapped)"
+  },
+  "public": {
+    "groups": [
+      {
+        "method": "dense_sentence",
+        "n": 480,
+        "f1": 36.90549746715437,
+        "em": 29.166666666666668,
+        "evidence_tokens": 506.925,
+        "statuses": {
+          "ok": 455,
+          "output_limit": 19,
+          "parse_failure": 6
+        },
+        "category": "simple",
+        "paper_label": "Dense sentence retrieval"
+      },
+      {
+        "method": "qwen_rerank_sentence",
+        "n": 480,
+        "f1": 50.33728230441281,
+        "em": 42.916666666666664,
+        "evidence_tokens": 507.28125,
+        "statuses": {
+          "ok": 465,
+          "output_limit": 12,
+          "parse_failure": 3
+        },
+        "category": "simple",
+        "paper_label": "Qwen reranker + sentence packing"
+      },
+      {
+        "method": "recomp_sentence",
+        "n": 480,
+        "f1": 31.669559628537957,
+        "em": 25.624999999999996,
+        "evidence_tokens": 508.20416666666665,
+        "statuses": {
+          "ok": 460,
+          "output_limit": 19,
+          "parse_failure": 1
+        },
+        "category": "published_extractive",
+        "paper_label": "RECOMP extractive checkpoint"
+      },
+      {
+        "method": "recomp_hotpot_sentence",
+        "n": 480,
+        "f1": 37.70083756113168,
+        "em": 31.25,
+        "evidence_tokens": 508.13958333333335,
+        "statuses": {
+          "ok": 459,
+          "parse_failure": 6,
+          "output_limit": 15
+        },
+        "category": "published_extractive",
+        "paper_label": "RECOMP Hotpot checkpoint"
+      },
+      {
+        "method": "llmlingua2_all20",
+        "n": 480,
+        "f1": 20.919490617407284,
+        "em": 12.916666666666668,
+        "evidence_tokens": 493.1979166666667,
+        "statuses": {
+          "ok": 449,
+          "output_limit": 28,
+          "parse_failure": 3
+        },
+        "category": "published_token_compression",
+        "paper_label": "LLMLingua-2"
+      },
+      {
+        "method": "qwen4x_llmlingua2",
+        "n": 480,
+        "f1": 25.929427054427055,
+        "em": 18.541666666666668,
+        "evidence_tokens": 496.93333333333334,
+        "statuses": {
+          "ok": 447,
+          "output_limit": 29,
+          "parse_failure": 4
+        },
+        "category": "pipeline_variant",
+        "paper_label": "Reranking + LLMLingua-2"
+      },
+      {
+        "method": "exit_budgeted",
+        "n": 480,
+        "f1": 35.83038666126902,
+        "em": 28.749999999999996,
+        "evidence_tokens": 199.09375,
+        "statuses": {
+          "ok": 467,
+          "output_limit": 12,
+          "parse_failure": 1
+        },
+        "category": "published_extractive",
+        "paper_label": "EXIT budget adaptation"
+      },
+      {
+        "method": "compact_budgeted",
+        "n": 480,
+        "f1": 21.284099348837202,
+        "em": 16.041666666666668,
+        "evidence_tokens": 142.55416666666667,
+        "statuses": {
+          "ok": 472,
+          "parse_failure": 2,
+          "output_limit": 6
+        },
+        "category": "published_abstractive",
+        "paper_label": "CompAct budget adaptation"
+      },
+      {
+        "method": "longrefiner_budgeted_repair_v1",
+        "n": 480,
+        "f1": 35.11415438563271,
+        "em": 27.916666666666668,
+        "evidence_tokens": 433.1125,
+        "statuses": {
+          "ok": 462,
+          "output_limit": 16,
+          "parse_failure": 2
+        },
+        "category": "published_refinement",
+        "paper_label": "LongRefiner repaired adaptation"
+      },
+      {
+        "method": "quote_anchor",
+        "n": 480,
+        "f1": 55.694411299771204,
+        "em": 47.708333333333336,
+        "evidence_tokens": 232.67083333333332,
+        "statuses": {
+          "ok": 474,
+          "parse_failure": 2,
+          "output_limit": 4
+        },
+        "category": "ours",
+        "paper_label": "Frozen quote-set retention system"
+      },
+      {
+        "method": "brief_pro_auto_cap",
+        "n": 480,
+        "f1": 48.51046509194056,
+        "em": 40.208333333333336,
+        "evidence_tokens": 291.15416666666664,
+        "statuses": {
+          "ok": 473,
+          "output_limit": 4,
+          "parse_failure": 3
+        },
+        "category": "published_abstractive",
+        "paper_label": "BRIEF-Pro, 512-token cap"
+      },
+      {
+        "method": "brief_pro_auto_native",
+        "n": 480,
+        "f1": 49.74043691158629,
+        "em": 41.041666666666664,
+        "evidence_tokens": 302.34791666666666,
+        "statuses": {
+          "ok": 472,
+          "parse_failure": 4,
+          "output_limit": 4
+        },
+        "category": "published_abstractive_reference",
+        "paper_label": "BRIEF-Pro, uncapped output"
+      }
+    ],
+    "comparisons": [
+      {
+        "method": "quote_anchor",
+        "control": "dense_sentence",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 18.788913832616842,
+        "ci95_points": [
+          13.358338193950974,
+          24.36135551997839
+        ],
+        "wins": 133,
+        "ties": 307,
+        "losses": 40
+      },
+      {
+        "method": "quote_anchor",
+        "control": "qwen_rerank_sentence",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 5.3571289953584005,
+        "ci95_points": [
+          1.2935752003082641,
+          9.391788756843656
+        ],
+        "wins": 75,
+        "ties": 353,
+        "losses": 52
+      },
+      {
+        "method": "quote_anchor",
+        "control": "recomp_sentence",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 24.02485167123325,
+        "ci95_points": [
+          18.391059202636786,
+          29.95219482217648
+        ],
+        "wins": 160,
+        "ties": 283,
+        "losses": 37
+      },
+      {
+        "method": "quote_anchor",
+        "control": "recomp_hotpot_sentence",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 17.99357373863953,
+        "ci95_points": [
+          13.1225178861996,
+          23.00871797875974
+        ],
+        "wins": 138,
+        "ties": 296,
+        "losses": 46
+      },
+      {
+        "method": "quote_anchor",
+        "control": "llmlingua2_all20",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 34.77492068236393,
+        "ci95_points": [
+          28.98866813071742,
+          40.5884246531171
+        ],
+        "wins": 233,
+        "ties": 207,
+        "losses": 40
+      },
+      {
+        "method": "quote_anchor",
+        "control": "qwen4x_llmlingua2",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 29.764984245344152,
+        "ci95_points": [
+          23.667913861141194,
+          35.88769329717334
+        ],
+        "wins": 207,
+        "ties": 234,
+        "losses": 39
+      },
+      {
+        "method": "quote_anchor",
+        "control": "exit_budgeted",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 19.864024638502194,
+        "ci95_points": [
+          14.331592459296571,
+          25.55442846850124
+        ],
+        "wins": 146,
+        "ties": 291,
+        "losses": 43
+      },
+      {
+        "method": "quote_anchor",
+        "control": "compact_budgeted",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 34.41031195093401,
+        "ci95_points": [
+          28.4803793358254,
+          40.36919587705089
+        ],
+        "wins": 207,
+        "ties": 243,
+        "losses": 30
+      },
+      {
+        "method": "quote_anchor",
+        "control": "longrefiner_budgeted_repair_v1",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 20.58025691413849,
+        "ci95_points": [
+          15.153959569958515,
+          26.150117244366
+        ],
+        "wins": 137,
+        "ties": 302,
+        "losses": 41
+      },
+      {
+        "method": "quote_anchor",
+        "control": "brief_pro_auto_cap",
+        "same_budget": true,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 7.183946207830647,
+        "ci95_points": [
+          2.446073804597676,
+          12.21460459820835
+        ],
+        "wins": 89,
+        "ties": 339,
+        "losses": 52
+      },
+      {
+        "method": "quote_anchor",
+        "control": "brief_pro_auto_native",
+        "same_budget": false,
+        "n": 480,
+        "clusters": 246,
+        "delta_points": 5.953974388184915,
+        "ci95_points": [
+          1.368985916866428,
+          10.698143258340293
+        ],
+        "wins": 86,
+        "ties": 339,
+        "losses": 55
+      }
+    ]
+  },
+  "confirmation": {
+    "groups": [
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "quote_anchor",
+        "n": 1400,
+        "f1": 84.3178616901306,
+        "em": 75.0,
+        "qwen_evidence_tokens": 163.36,
+        "actual_reader_evidence_tokens": 163.36,
+        "prompt_tokens": 263.70428571428573,
+        "output_tokens": 7.373571428571428,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "rank_add",
+        "n": 1400,
+        "f1": 80.74143977649948,
+        "em": 71.57142857142857,
+        "qwen_evidence_tokens": 197.97357142857143,
+        "actual_reader_evidence_tokens": 197.97357142857143,
+        "prompt_tokens": 298.3178571428571,
+        "output_tokens": 7.350714285714286,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "strong_rerank",
+        "n": 1400,
+        "f1": 79.31981307453665,
+        "em": 69.5,
+        "qwen_evidence_tokens": 503.825,
+        "actual_reader_evidence_tokens": 503.825,
+        "prompt_tokens": 604.1692857142857,
+        "output_tokens": 7.3707142857142856,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "quote_anchor",
+        "n": 1400,
+        "f1": 75.5793884478095,
+        "em": 63.714285714285715,
+        "qwen_evidence_tokens": 163.36,
+        "actual_reader_evidence_tokens": 153.04142857142858,
+        "prompt_tokens": 238.76071428571427,
+        "output_tokens": 5.452857142857143,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "rank_add",
+        "n": 1400,
+        "f1": 71.43358780597579,
+        "em": 60.642857142857146,
+        "qwen_evidence_tokens": 197.97357142857143,
+        "actual_reader_evidence_tokens": 185.4007142857143,
+        "prompt_tokens": 271.05571428571426,
+        "output_tokens": 5.617857142857143,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "strong_rerank",
+        "n": 1400,
+        "f1": 67.54268345205968,
+        "em": 56.00000000000001,
+        "qwen_evidence_tokens": 503.825,
+        "actual_reader_evidence_tokens": 471.86642857142857,
+        "prompt_tokens": 557.5014285714286,
+        "output_tokens": 5.698571428571428,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "quote_anchor",
+        "n": 535,
+        "f1": 63.999232608676785,
+        "em": 57.009345794392516,
+        "qwen_evidence_tokens": 193.3626168224299,
+        "actual_reader_evidence_tokens": 193.3626168224299,
+        "prompt_tokens": 539.2467289719626,
+        "output_tokens": 115.70093457943925,
+        "statuses": {
+          "ok": 532,
+          "output_limit": 3
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "rank_add",
+        "n": 535,
+        "f1": 56.62287622199082,
+        "em": 50.09345794392524,
+        "qwen_evidence_tokens": 209.05981308411214,
+        "actual_reader_evidence_tokens": 209.05981308411214,
+        "prompt_tokens": 554.9439252336449,
+        "output_tokens": 113.83364485981308,
+        "statuses": {
+          "ok": 530,
+          "output_limit": 2,
+          "parse_failure": 3
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "strong_rerank",
+        "n": 535,
+        "f1": 55.224441187058005,
+        "em": 47.85046728971963,
+        "qwen_evidence_tokens": 507.2280373831776,
+        "actual_reader_evidence_tokens": 507.2280373831776,
+        "prompt_tokens": 853.1121495327103,
+        "output_tokens": 147.29158878504674,
+        "statuses": {
+          "ok": 526,
+          "parse_failure": 4,
+          "output_limit": 5
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "quote_anchor",
+        "n": 535,
+        "f1": 57.26560529294825,
+        "em": 46.54205607476635,
+        "qwen_evidence_tokens": 193.3626168224299,
+        "actual_reader_evidence_tokens": 179.22990654205609,
+        "prompt_tokens": 471.98504672897195,
+        "output_tokens": 52.33271028037383,
+        "statuses": {
+          "ok": 534,
+          "parse_failure": 1
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "rank_add",
+        "n": 535,
+        "f1": 53.54766521121661,
+        "em": 43.73831775700935,
+        "qwen_evidence_tokens": 209.05981308411214,
+        "actual_reader_evidence_tokens": 193.71588785046728,
+        "prompt_tokens": 486.3943925233645,
+        "output_tokens": 53.2785046728972,
+        "statuses": {
+          "ok": 535
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "strong_rerank",
+        "n": 535,
+        "f1": 47.59746502894251,
+        "em": 37.00934579439252,
+        "qwen_evidence_tokens": 507.2280373831776,
+        "actual_reader_evidence_tokens": 470.1570093457944,
+        "prompt_tokens": 762.7906542056074,
+        "output_tokens": 54.38878504672897,
+        "statuses": {
+          "ok": 535
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "retain_fill",
+        "n": 256,
+        "f1": 80.37313814657566,
+        "em": 70.703125,
+        "qwen_evidence_tokens": 502.5546875,
+        "actual_reader_evidence_tokens": 502.5546875,
+        "prompt_tokens": 603.62890625,
+        "output_tokens": 7.43359375,
+        "statuses": {
+          "ok": 256
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "greedy",
+        "n": 256,
+        "f1": 79.83742386086135,
+        "em": 70.703125,
+        "qwen_evidence_tokens": 502.32421875,
+        "actual_reader_evidence_tokens": 502.32421875,
+        "prompt_tokens": 603.3984375,
+        "output_tokens": 7.40625,
+        "statuses": {
+          "ok": 256
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "knapsack",
+        "n": 256,
+        "f1": 79.36527556644745,
+        "em": 69.921875,
+        "qwen_evidence_tokens": 502.68359375,
+        "actual_reader_evidence_tokens": 502.68359375,
+        "prompt_tokens": 603.7578125,
+        "output_tokens": 7.3671875,
+        "statuses": {
+          "ok": 256
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "knapsack_matched",
+        "n": 256,
+        "f1": 77.57956128073316,
+        "em": 67.96875,
+        "qwen_evidence_tokens": 502.5546875,
+        "actual_reader_evidence_tokens": 502.5546875,
+        "prompt_tokens": 603.62890625,
+        "output_tokens": 7.33984375,
+        "statuses": {
+          "ok": 256
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "retain_fill",
+        "n": 256,
+        "f1": 80.34523636086136,
+        "em": 71.09375,
+        "qwen_evidence_tokens": 502.328125,
+        "actual_reader_evidence_tokens": 502.328125,
+        "prompt_tokens": 603.40234375,
+        "output_tokens": 7.40625,
+        "statuses": {
+          "ok": 256
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "greedy",
+        "n": 256,
+        "f1": 79.83742386086135,
+        "em": 70.703125,
+        "qwen_evidence_tokens": 502.32421875,
+        "actual_reader_evidence_tokens": 502.32421875,
+        "prompt_tokens": 603.3984375,
+        "output_tokens": 7.40625,
+        "statuses": {
+          "ok": 256
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "knapsack",
+        "n": 256,
+        "f1": 79.36527556644745,
+        "em": 69.921875,
+        "qwen_evidence_tokens": 502.68359375,
+        "actual_reader_evidence_tokens": 502.68359375,
+        "prompt_tokens": 603.7578125,
+        "output_tokens": 7.3671875,
+        "statuses": {
+          "ok": 256
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "knapsack_matched",
+        "n": 256,
+        "f1": 78.36081128073316,
+        "em": 68.75,
+        "qwen_evidence_tokens": 502.328125,
+        "actual_reader_evidence_tokens": 502.328125,
+        "prompt_tokens": 603.40234375,
+        "output_tokens": 7.37109375,
+        "statuses": {
+          "ok": 256
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "retain_fill",
+        "n": 256,
+        "f1": 55.73871165488213,
+        "em": 48.046875,
+        "qwen_evidence_tokens": 507.98046875,
+        "actual_reader_evidence_tokens": 507.98046875,
+        "prompt_tokens": 853.03515625,
+        "output_tokens": 156.82421875,
+        "statuses": {
+          "ok": 252,
+          "output_limit": 4
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "greedy",
+        "n": 256,
+        "f1": 47.25394274731911,
+        "em": 39.84375,
+        "qwen_evidence_tokens": 508.04296875,
+        "actual_reader_evidence_tokens": 508.04296875,
+        "prompt_tokens": 853.09765625,
+        "output_tokens": 179.9921875,
+        "statuses": {
+          "ok": 249,
+          "output_limit": 6,
+          "parse_failure": 1
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "knapsack",
+        "n": 256,
+        "f1": 49.58966727716728,
+        "em": 41.40625,
+        "qwen_evidence_tokens": 508.609375,
+        "actual_reader_evidence_tokens": 508.609375,
+        "prompt_tokens": 853.6640625,
+        "output_tokens": 200.1015625,
+        "statuses": {
+          "ok": 247,
+          "output_limit": 6,
+          "parse_failure": 3
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "knapsack_matched",
+        "n": 256,
+        "f1": 49.577576503357754,
+        "em": 42.578125,
+        "qwen_evidence_tokens": 507.98046875,
+        "actual_reader_evidence_tokens": 507.98046875,
+        "prompt_tokens": 853.03515625,
+        "output_tokens": 196.0546875,
+        "statuses": {
+          "ok": 249,
+          "output_limit": 7
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "retain_fill",
+        "n": 256,
+        "f1": 52.26696358065244,
+        "em": 45.3125,
+        "qwen_evidence_tokens": 508.07421875,
+        "actual_reader_evidence_tokens": 508.07421875,
+        "prompt_tokens": 853.12890625,
+        "output_tokens": 147.47265625,
+        "statuses": {
+          "ok": 252,
+          "output_limit": 4
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "greedy",
+        "n": 256,
+        "f1": 47.25394274731911,
+        "em": 39.84375,
+        "qwen_evidence_tokens": 508.04296875,
+        "actual_reader_evidence_tokens": 508.04296875,
+        "prompt_tokens": 853.09765625,
+        "output_tokens": 179.9921875,
+        "statuses": {
+          "ok": 249,
+          "output_limit": 6,
+          "parse_failure": 1
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "knapsack",
+        "n": 256,
+        "f1": 49.58966727716728,
+        "em": 41.40625,
+        "qwen_evidence_tokens": 508.609375,
+        "actual_reader_evidence_tokens": 508.609375,
+        "prompt_tokens": 853.6640625,
+        "output_tokens": 200.1015625,
+        "statuses": {
+          "ok": 247,
+          "output_limit": 6,
+          "parse_failure": 3
+        }
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "knapsack_matched",
+        "n": 256,
+        "f1": 49.31557469176355,
+        "em": 42.1875,
+        "qwen_evidence_tokens": 508.07421875,
+        "actual_reader_evidence_tokens": 508.07421875,
+        "prompt_tokens": 853.12890625,
+        "output_tokens": 179.89453125,
+        "statuses": {
+          "ok": 250,
+          "output_limit": 6
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "quote_anchor",
+        "control": "rank_add",
+        "n": 1400,
+        "clusters": 1400,
+        "delta_points": 3.576421913631113,
+        "ci95_points": [
+          2.219199732862106,
+          5.0083714682167795
+        ],
+        "wins": 103,
+        "ties": 1250,
+        "losses": 47
+      },
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "quote_anchor",
+        "control": "strong_rerank",
+        "n": 1400,
+        "clusters": 1400,
+        "delta_points": 4.99804861559395,
+        "ci95_points": [
+          3.466008122829551,
+          6.598553610249155
+        ],
+        "wins": 146,
+        "ties": 1193,
+        "losses": 61
+      },
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "quote_anchor",
+        "control": "rank_add",
+        "n": 1400,
+        "clusters": 1400,
+        "delta_points": 4.1458006418337074,
+        "ci95_points": [
+          2.4804608217220734,
+          5.847109676962351
+        ],
+        "wins": 166,
+        "ties": 1135,
+        "losses": 99
+      },
+      {
+        "dataset": "hotpot",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "quote_anchor",
+        "control": "strong_rerank",
+        "n": 1400,
+        "clusters": 1400,
+        "delta_points": 8.036704995749822,
+        "ci95_points": [
+          6.1636223598462,
+          9.922129577906626
+        ],
+        "wins": 246,
+        "ties": 1046,
+        "losses": 108
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "quote_anchor",
+        "control": "rank_add",
+        "n": 535,
+        "clusters": 520,
+        "delta_points": 7.376356386685949,
+        "ci95_points": [
+          4.213000280794999,
+          10.605314527557537
+        ],
+        "wins": 75,
+        "ties": 434,
+        "losses": 26
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Qwen3.5-9B",
+        "extractor": null,
+        "method": "quote_anchor",
+        "control": "strong_rerank",
+        "n": 535,
+        "clusters": 520,
+        "delta_points": 8.77479142161877,
+        "ci95_points": [
+          5.356964149536713,
+          12.16062281300352
+        ],
+        "wins": 89,
+        "ties": 416,
+        "losses": 30
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "quote_anchor",
+        "control": "rank_add",
+        "n": 535,
+        "clusters": 520,
+        "delta_points": 3.717940081731639,
+        "ci95_points": [
+          0.7075485841329471,
+          6.835396872426318
+        ],
+        "wins": 74,
+        "ties": 411,
+        "losses": 50
+      },
+      {
+        "dataset": "musique",
+        "study": "complete",
+        "reader": "Phi-4-mini-instruct",
+        "extractor": null,
+        "method": "quote_anchor",
+        "control": "strong_rerank",
+        "n": 535,
+        "clusters": 520,
+        "delta_points": 9.668140264005741,
+        "ci95_points": [
+          6.156765989646687,
+          13.223905226541365
+        ],
+        "wins": 112,
+        "ties": 373,
+        "losses": 50
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "retain_fill",
+        "control": "greedy",
+        "n": 256,
+        "clusters": 256,
+        "delta_points": 0.5357142857142857,
+        "ci95_points": [
+          -0.8035714285714285,
+          2.0089285714285716
+        ],
+        "wins": 3,
+        "ties": 251,
+        "losses": 2
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "retain_fill",
+        "control": "knapsack",
+        "n": 256,
+        "clusters": 256,
+        "delta_points": 1.0078625801282053,
+        "ci95_points": [
+          -0.9765625,
+          3.0899439102564106
+        ],
+        "wins": 6,
+        "ties": 247,
+        "losses": 3
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "retain_fill",
+        "control": "knapsack_matched",
+        "n": 256,
+        "clusters": 256,
+        "delta_points": 2.793576865842491,
+        "ci95_points": [
+          1.0845924908424909,
+          4.914112580128204
+        ],
+        "wins": 9,
+        "ties": 247,
+        "losses": 0
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "retain_fill",
+        "control": "greedy",
+        "n": 256,
+        "clusters": 256,
+        "delta_points": 0.5078125,
+        "ci95_points": [
+          -0.15624999999999997,
+          1.484375
+        ],
+        "wins": 2,
+        "ties": 253,
+        "losses": 1
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "retain_fill",
+        "control": "knapsack",
+        "n": 256,
+        "clusters": 256,
+        "delta_points": 0.9799607944139194,
+        "ci95_points": [
+          -0.6696473285828757,
+          2.786860762934978
+        ],
+        "wins": 5,
+        "ties": 249,
+        "losses": 2
+      },
+      {
+        "dataset": "hotpot",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "retain_fill",
+        "control": "knapsack_matched",
+        "n": 256,
+        "clusters": 256,
+        "delta_points": 1.9844250801282053,
+        "ci95_points": [
+          0.5859375,
+          3.759765625
+        ],
+        "wins": 7,
+        "ties": 249,
+        "losses": 0
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "retain_fill",
+        "control": "greedy",
+        "n": 256,
+        "clusters": 252,
+        "delta_points": 8.484768907563026,
+        "ci95_points": [
+          4.763531021342634,
+          12.457487666982804
+        ],
+        "wins": 28,
+        "ties": 223,
+        "losses": 5
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "retain_fill",
+        "control": "knapsack",
+        "n": 256,
+        "clusters": 252,
+        "delta_points": 6.149044377714854,
+        "ci95_points": [
+          1.5890828626666114,
+          10.804484677934672
+        ],
+        "wins": 31,
+        "ties": 210,
+        "losses": 15
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "role",
+        "method": "retain_fill",
+        "control": "knapsack_matched",
+        "n": 256,
+        "clusters": 252,
+        "delta_points": 6.161135151524378,
+        "ci95_points": [
+          2.291609384078791,
+          10.324414897344095
+        ],
+        "wins": 25,
+        "ties": 223,
+        "losses": 8
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "retain_fill",
+        "control": "greedy",
+        "n": 256,
+        "clusters": 252,
+        "delta_points": 5.013020833333334,
+        "ci95_points": [
+          1.9607843137254901,
+          8.2687338501292
+        ],
+        "wins": 16,
+        "ties": 237,
+        "losses": 3
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "retain_fill",
+        "control": "knapsack",
+        "n": 256,
+        "clusters": 252,
+        "delta_points": 2.677296303485162,
+        "ci95_points": [
+          -1.7924755328867594,
+          7.1305146291748915
+        ],
+        "wins": 23,
+        "ties": 217,
+        "losses": 16
+      },
+      {
+        "dataset": "musique",
+        "study": "retention",
+        "reader": "Qwen3.5-9B",
+        "extractor": "direct",
+        "method": "retain_fill",
+        "control": "knapsack_matched",
+        "n": 256,
+        "clusters": 252,
+        "delta_points": 2.951388888888889,
+        "ci95_points": [
+          -0.6485084306095978,
+          6.6491772987835995
+        ],
+        "wins": 16,
+        "ties": 232,
+        "losses": 8
+      }
+    ]
+  },
+  "components": {
+    "groups": [
+      {
+        "dataset": "hotpot",
+        "reader": "Qwen3.5-9B",
+        "method": "quote_joint",
+        "n": 1400,
+        "f1": 83.98509525022129,
+        "em": 74.57142857142857,
+        "evidence_tokens": 156.5207142857143,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "reader": "Qwen3.5-9B",
+        "method": "quote_cover",
+        "n": 1400,
+        "f1": 82.13088398775041,
+        "em": 72.35714285714285,
+        "evidence_tokens": 500.9864285714286,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "reader": "Phi-4-mini-instruct",
+        "method": "quote_joint",
+        "n": 1400,
+        "f1": 75.10484336168844,
+        "em": 63.142857142857146,
+        "evidence_tokens": 156.5207142857143,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "reader": "Phi-4-mini-instruct",
+        "method": "quote_cover",
+        "n": 1400,
+        "f1": 69.58831516370643,
+        "em": 58.285714285714285,
+        "evidence_tokens": 500.9864285714286,
+        "statuses": {
+          "ok": 1400
+        }
+      },
+      {
+        "dataset": "musique",
+        "reader": "Qwen3.5-9B",
+        "method": "quote_joint",
+        "n": 535,
+        "f1": 63.355411217191836,
+        "em": 56.82242990654206,
+        "evidence_tokens": 180.4373831775701,
+        "statuses": {
+          "ok": 532,
+          "output_limit": 3
+        }
+      },
+      {
+        "dataset": "musique",
+        "reader": "Qwen3.5-9B",
+        "method": "quote_cover",
+        "n": 535,
+        "f1": 62.86861351952061,
+        "em": 56.44859813084112,
+        "evidence_tokens": 500.5420560747664,
+        "statuses": {
+          "ok": 526,
+          "output_limit": 6,
+          "parse_failure": 3
+        }
+      },
+      {
+        "dataset": "musique",
+        "reader": "Phi-4-mini-instruct",
+        "method": "quote_joint",
+        "n": 535,
+        "f1": 58.136682750843214,
+        "em": 47.85046728971963,
+        "evidence_tokens": 180.4373831775701,
+        "statuses": {
+          "ok": 534,
+          "parse_failure": 1
+        }
+      },
+      {
+        "dataset": "musique",
+        "reader": "Phi-4-mini-instruct",
+        "method": "quote_cover",
+        "n": 535,
+        "f1": 52.524638692111004,
+        "em": 41.308411214953274,
+        "evidence_tokens": 500.5420560747664,
+        "statuses": {
+          "ok": 534,
+          "parse_failure": 1
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "dataset": "hotpot",
+        "reader": "Qwen3.5-9B",
+        "method": "quote_anchor",
+        "control": "quote_joint",
+        "n": 1400,
+        "clusters": 1400,
+        "delta_points": 0.33276643990929705,
+        "ci95_points": [
+          -0.11805272108843538,
+          0.8052239229024942
+        ],
+        "wins": 14,
+        "ties": 1381,
+        "losses": 5
+      },
+      {
+        "dataset": "hotpot",
+        "reader": "Qwen3.5-9B",
+        "method": "quote_anchor",
+        "control": "quote_cover",
+        "n": 1400,
+        "clusters": 1400,
+        "delta_points": 2.186977702380179,
+        "ci95_points": [
+          0.935250213599119,
+          3.473968972541782
+        ],
+        "wins": 97,
+        "ties": 1247,
+        "losses": 56
+      },
+      {
+        "dataset": "hotpot",
+        "reader": "Phi-4-mini-instruct",
+        "method": "quote_anchor",
+        "control": "quote_joint",
+        "n": 1400,
+        "clusters": 1400,
+        "delta_points": 0.4745450861210529,
+        "ci95_points": [
+          -0.09792807029518374,
+          1.0690331632653058
+        ],
+        "wins": 23,
+        "ties": 1360,
+        "losses": 17
+      },
+      {
+        "dataset": "hotpot",
+        "reader": "Phi-4-mini-instruct",
+        "method": "quote_anchor",
+        "control": "quote_cover",
+        "n": 1400,
+        "clusters": 1400,
+        "delta_points": 5.991073284103073,
+        "ci95_points": [
+          4.176488291664548,
+          7.810817944302988
+        ],
+        "wins": 215,
+        "ties": 1079,
+        "losses": 106
+      },
+      {
+        "dataset": "musique",
+        "reader": "Qwen3.5-9B",
+        "method": "quote_anchor",
+        "control": "quote_joint",
+        "n": 535,
+        "clusters": 520,
+        "delta_points": 0.6438213914849429,
+        "ci95_points": [
+          -0.9055417805751583,
+          2.2283953480382053
+        ],
+        "wins": 15,
+        "ties": 508,
+        "losses": 12
+      },
+      {
+        "dataset": "musique",
+        "reader": "Qwen3.5-9B",
+        "method": "quote_anchor",
+        "control": "quote_cover",
+        "n": 535,
+        "clusters": 520,
+        "delta_points": 1.1306190891561687,
+        "ci95_points": [
+          -1.5532585175941287,
+          3.7534499936410635
+        ],
+        "wins": 41,
+        "ties": 464,
+        "losses": 30
+      },
+      {
+        "dataset": "musique",
+        "reader": "Phi-4-mini-instruct",
+        "method": "quote_anchor",
+        "control": "quote_joint",
+        "n": 535,
+        "clusters": 520,
+        "delta_points": -0.8710774578949689,
+        "ci95_points": [
+          -2.4533620174345603,
+          0.6500849017644994
+        ],
+        "wins": 11,
+        "ties": 504,
+        "losses": 20
+      },
+      {
+        "dataset": "musique",
+        "reader": "Phi-4-mini-instruct",
+        "method": "quote_anchor",
+        "control": "quote_cover",
+        "n": 535,
+        "clusters": 520,
+        "delta_points": 4.740966600837246,
+        "ci95_points": [
+          1.5705333509515917,
+          7.930232637598915
+        ],
+        "wins": 83,
+        "ties": 404,
+        "losses": 48
+      }
+    ]
+  },
+  "source_files": {
+    "confirmation": {
+      "path": "research/paper_confirmation_v1/results/analysis.json",
+      "sha256": "e473332df59fc8b54d2023daea11f107e38a6467a06c42f5fb19b5c474926658"
+    },
+    "components": {
+      "path": "research/paper_component_controls_v2/results/analysis.json",
+      "sha256": "d24556abe7655a96656b8aed6223dbd62cbee7dd19369bd1ae9bad3b2477a279"
+    },
+    "external": {
+      "path": "research/paper_benchmark_extension_v1/results/analysis.json",
+      "sha256": "c879e1f2b8002a52ccc1816d67edd9f4f7a74be483c40289615a05e53edbd00f"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# CUDA wheels are staged locally for Linux x86_64 / CPython 3.12.
+torch==2.10.0+cu128
+transformers==5.20.2
+accelerate==1.15.0
+llmlingua==0.2.2
+pip==26.2.2

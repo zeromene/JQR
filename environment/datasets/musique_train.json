@@ -1,0 +1,19 @@
+{
+  "dataset": "MuSiQue-Ans v1.0",
+  "split": "train only",
+  "mirror_repository": "dgslibisey/MuSiQue",
+  "revision": "c8f4f8c9465fb69d31a8eae894c3fd509c4ca321",
+  "sha256": "83a75b1e11e4e9bb8f8308e72ac40ca617ae4431b3a0d955b61cab259248490a",
+  "bytes": 241046755,
+  "transport": "https://hf-mirror.com/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/musique_ans_v1.0_train.jsonl?download=1",
+  "official_repository": "https://github.com/StonyBrookNLP/musique",
+  "trust_scope": "Third-party mirror; pinned LFS integrity verified; not independently compared to official Drive archive",
+  "dev_test_downloaded": false,
+  "current_invocation_seconds": 0.30029030004516244,
+  "additional_transport": {
+    "repository": "bdsaglam/musique",
+    "url": "https://hf-mirror.com/datasets/bdsaglam/musique/resolve/main/musique_ans_v1.0_train.jsonl?download=1",
+    "byte_range": "20971520-25165823",
+    "reason": "primary transport stalled; same whole-file LFS SHA256 verified after assembly"
+  }
+}

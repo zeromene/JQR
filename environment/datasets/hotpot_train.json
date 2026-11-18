@@ -1,0 +1,22 @@
+{
+  "repository": "hotpotqa/hotpot_qa",
+  "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+  "metadata_sha256": "480999ec6f4b9f093ff35899f16de97c938303bc20a358c1a156e1a77133ec4a",
+  "files": [
+    {
+      "path": "data/hotpot_train_pinned_v1/train-00000-of-00002.parquet",
+      "upstream_path": "distractor/train-00000-of-00002.parquet",
+      "size": 165624177,
+      "sha256": "76d3bb3048a7cc73c1958107c0c5872a00d7e7d00c105b81e92f6769e7822e68"
+    },
+    {
+      "path": "data/hotpot_train_pinned_v1/train-00001-of-00002.parquet",
+      "upstream_path": "distractor/train-00001-of-00002.parquet",
+      "size": 166162479,
+      "sha256": "713661628434fbb19fff7392e2e321e4ed107e3c7c7784d0690946e5f722763f"
+    }
+  ],
+  "time": "2026-11-11T23:35:06.413521+00:00",
+  "model_calls": 0,
+  "answer_columns_read": false
+}

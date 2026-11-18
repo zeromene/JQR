@@ -1,0 +1,56 @@
+{
+  "repository": "lytang/MiniCheck-DeBERTa-v3-Large",
+  "revision": "2f2d01a54fa022a7ffadb76260e1ea8bc88c82bb",
+  "upstream_metadata_sha256": "e70e60eb0d66f6896fe84e95c35a136933c10e957c0ffdeec2e4a9921654bc20",
+  "files": [
+    {
+      "name": "README.md",
+      "size": 4629,
+      "sha256": "b5b57b1ba37a3c7dde8b169b40ce12977679303e8507a6d5e3f8bf785c34e81d",
+      "git_blob_sha1": "4fc2e75b8fec68181853765b9eb7c50daf15b8bd"
+    },
+    {
+      "name": "config.json",
+      "size": 1075,
+      "sha256": "8a8eabb5f1bc47c9f221486964d208064f6649eafd6cf992020a200a4e1a4f8d",
+      "git_blob_sha1": "3d6f63070c822ff347bb83aa9adad54ac29f19f3"
+    },
+    {
+      "name": "added_tokens.json",
+      "size": 79,
+      "sha256": "1dbe7c2023658ad369d0e79ea05048aa0b845b518a1334fa147b5b1904d9b600",
+      "git_blob_sha1": "38090ace11147c895618f82d436d75a661553849"
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 276,
+      "sha256": "df07ec76585071dc1ffa857ab911880a32c7818d87f7b7fad0142e545dd6d1e5",
+      "git_blob_sha1": "db6a3353e4d6e3080e91bb044ca6b91730754505"
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 8648917,
+      "sha256": "8bfb874b90f3b3ea9481289bf351eef77462f0935f526ea107f53789708cc5d4",
+      "git_blob_sha1": "645847e755c5da5572d1737f26b75a2912453aa5"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 1496,
+      "sha256": "c5d20c69691d05875de7ac9a8cb735c8cd89499114ef0071dd51c2a17fb20278",
+      "git_blob_sha1": "ed7ce59e944d744a27cb722ae34c0ab8cdeee226"
+    },
+    {
+      "name": "spm.model",
+      "size": 2464616,
+      "sha256": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+      "git_blob_sha1": "f8a64f8c4d0676966e36e93910742fde2ec256eb"
+    },
+    {
+      "name": "pytorch_model.bin",
+      "size": 1740386738,
+      "sha256": "32ced784f4831d5f324a072e43b96d4072cac4bf41042bc42243605ffbbccbdf",
+      "git_blob_sha1": "cc27c03b7f3a50baff2348f65cebec61f38d3cb0"
+    }
+  ],
+  "upstream_hashes_verified": true
+}

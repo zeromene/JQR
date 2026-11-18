@@ -1,0 +1,1572 @@
+{
+  "signature": "bc1a7af40cf445d9caef6aceb011c0f76573e7c8d750eb253996888fe8790f5a",
+  "complete": true,
+  "logical_conditions": 30960,
+  "groups": [
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "method": "quote_anchor",
+      "n": 1400,
+      "f1": 67.55246257894643,
+      "em": 59.5,
+      "valid_percent": 99.85714285714286,
+      "statuses": {
+        "ok": 1398,
+        "selection_failed": 2
+      },
+      "evidence_tokens": 105.16785714285714,
+      "actual_reader_evidence_tokens": 105.16785714285714,
+      "prompt_tokens": 205.37642857142856
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "method": "strong_rerank",
+      "n": 1400,
+      "f1": 60.22330435621679,
+      "em": 52.42857142857142,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 119.80571428571429,
+      "actual_reader_evidence_tokens": 119.80571428571429,
+      "prompt_tokens": 220.15
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "method": "quote_anchor",
+      "n": 1400,
+      "f1": 83.95406968848145,
+      "em": 74.64285714285714,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 133.84142857142857,
+      "actual_reader_evidence_tokens": 133.84142857142857,
+      "prompt_tokens": 234.18571428571428
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "method": "strong_rerank",
+      "n": 1400,
+      "f1": 75.41376748834732,
+      "em": 66.5,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 248.625,
+      "actual_reader_evidence_tokens": 248.625,
+      "prompt_tokens": 348.9692857142857
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "method": "quote_anchor",
+      "n": 1400,
+      "f1": 84.39953454108917,
+      "em": 75.07142857142857,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 148.80857142857144,
+      "actual_reader_evidence_tokens": 148.80857142857144,
+      "prompt_tokens": 249.15285714285713
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "method": "strong_rerank",
+      "n": 1400,
+      "f1": 77.6314520680067,
+      "em": 68.14285714285714,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 376.45142857142855,
+      "actual_reader_evidence_tokens": 376.45142857142855,
+      "prompt_tokens": 476.79571428571427
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 512,
+      "method": "quote_anchor",
+      "n": 1400,
+      "f1": 84.3178616901306,
+      "em": 75.0,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 163.36,
+      "actual_reader_evidence_tokens": 163.36,
+      "prompt_tokens": 263.70428571428573
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 512,
+      "method": "strong_rerank",
+      "n": 1400,
+      "f1": 79.31981307453665,
+      "em": 69.5,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 503.825,
+      "actual_reader_evidence_tokens": 503.825,
+      "prompt_tokens": 604.1692857142857
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "method": "quote_anchor",
+      "n": 1400,
+      "f1": 62.14874064504474,
+      "em": 51.5,
+      "valid_percent": 99.78571428571429,
+      "statuses": {
+        "ok": 1398,
+        "selection_failed": 2
+      },
+      "evidence_tokens": 105.16785714285714,
+      "actual_reader_evidence_tokens": 98.73785714285714,
+      "prompt_tokens": 184.30857142857144
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "method": "strong_rerank",
+      "n": 1400,
+      "f1": 55.58193519580572,
+      "em": 45.285714285714285,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 119.80571428571429,
+      "actual_reader_evidence_tokens": 112.66,
+      "prompt_tokens": 198.29714285714286
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "method": "quote_anchor",
+      "n": 1400,
+      "f1": 75.34979661107481,
+      "em": 63.42857142857142,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 133.84142857142857,
+      "actual_reader_evidence_tokens": 125.355,
+      "prompt_tokens": 211.0742857142857
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "method": "strong_rerank",
+      "n": 1400,
+      "f1": 66.0704976383666,
+      "em": 55.50000000000001,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 248.625,
+      "actual_reader_evidence_tokens": 233.01142857142858,
+      "prompt_tokens": 318.645
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "method": "quote_anchor",
+      "n": 1400,
+      "f1": 75.60789446560123,
+      "em": 63.857142857142854,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 148.80857142857144,
+      "actual_reader_evidence_tokens": 139.41357142857143,
+      "prompt_tokens": 225.13214285714287
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "method": "strong_rerank",
+      "n": 1400,
+      "f1": 67.43199058746924,
+      "em": 56.214285714285715,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 376.45142857142855,
+      "actual_reader_evidence_tokens": 352.4792857142857,
+      "prompt_tokens": 438.11642857142857
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 512,
+      "method": "quote_anchor",
+      "n": 1400,
+      "f1": 75.5793884478095,
+      "em": 63.714285714285715,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 163.36,
+      "actual_reader_evidence_tokens": 153.04142857142858,
+      "prompt_tokens": 238.76071428571427
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 512,
+      "method": "strong_rerank",
+      "n": 1400,
+      "f1": 67.54268345205968,
+      "em": 56.00000000000001,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 1400
+      },
+      "evidence_tokens": 503.825,
+      "actual_reader_evidence_tokens": 471.86642857142857,
+      "prompt_tokens": 557.5014285714286
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "method": "quote_anchor",
+      "n": 535,
+      "f1": 44.663515748611665,
+      "em": 38.87850467289719,
+      "valid_percent": 99.06542056074767,
+      "statuses": {
+        "ok": 530,
+        "output_limit": 4,
+        "parse_failure": 1
+      },
+      "evidence_tokens": 109.1196261682243,
+      "actual_reader_evidence_tokens": 109.1196261682243,
+      "prompt_tokens": 455.003738317757
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "method": "strong_rerank",
+      "n": 535,
+      "f1": 28.346750478575366,
+      "em": 23.177570093457945,
+      "valid_percent": 98.69158878504672,
+      "statuses": {
+        "ok": 528,
+        "output_limit": 6,
+        "parse_failure": 1
+      },
+      "evidence_tokens": 121.07289719626168,
+      "actual_reader_evidence_tokens": 121.07289719626168,
+      "prompt_tokens": 466.9570093457944
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "method": "quote_anchor",
+      "n": 535,
+      "f1": 62.27845871131655,
+      "em": 55.700934579439256,
+      "valid_percent": 99.06542056074767,
+      "statuses": {
+        "ok": 530,
+        "output_limit": 5
+      },
+      "evidence_tokens": 147.5607476635514,
+      "actual_reader_evidence_tokens": 147.5607476635514,
+      "prompt_tokens": 493.4448598130841
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "method": "strong_rerank",
+      "n": 535,
+      "f1": 45.45977660094728,
+      "em": 38.691588785046726,
+      "valid_percent": 97.94392523364486,
+      "statuses": {
+        "ok": 524,
+        "parse_failure": 3,
+        "output_limit": 8
+      },
+      "evidence_tokens": 249.68598130841121,
+      "actual_reader_evidence_tokens": 249.68598130841121,
+      "prompt_tokens": 595.5700934579439
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "method": "quote_anchor",
+      "n": 535,
+      "f1": 62.683443134992565,
+      "em": 55.700934579439256,
+      "valid_percent": 99.62616822429906,
+      "statuses": {
+        "ok": 533,
+        "output_limit": 2
+      },
+      "evidence_tokens": 171.6448598130841,
+      "actual_reader_evidence_tokens": 171.6448598130841,
+      "prompt_tokens": 517.5289719626169
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "method": "strong_rerank",
+      "n": 535,
+      "f1": 51.281647357397475,
+      "em": 45.046728971962615,
+      "valid_percent": 97.38317757009347,
+      "statuses": {
+        "ok": 521,
+        "output_limit": 13,
+        "parse_failure": 1
+      },
+      "evidence_tokens": 378.9271028037383,
+      "actual_reader_evidence_tokens": 378.9271028037383,
+      "prompt_tokens": 724.811214953271
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 512,
+      "method": "quote_anchor",
+      "n": 535,
+      "f1": 63.999232608676785,
+      "em": 57.009345794392516,
+      "valid_percent": 99.4392523364486,
+      "statuses": {
+        "ok": 532,
+        "output_limit": 3
+      },
+      "evidence_tokens": 193.3626168224299,
+      "actual_reader_evidence_tokens": 193.3626168224299,
+      "prompt_tokens": 539.2467289719626
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 512,
+      "method": "strong_rerank",
+      "n": 535,
+      "f1": 55.224441187058005,
+      "em": 47.85046728971963,
+      "valid_percent": 98.3177570093458,
+      "statuses": {
+        "ok": 526,
+        "parse_failure": 4,
+        "output_limit": 5
+      },
+      "evidence_tokens": 507.2280373831776,
+      "actual_reader_evidence_tokens": 507.2280373831776,
+      "prompt_tokens": 853.1121495327103
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "method": "quote_anchor",
+      "n": 535,
+      "f1": 45.49422597887631,
+      "em": 36.26168224299066,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 535
+      },
+      "evidence_tokens": 109.1196261682243,
+      "actual_reader_evidence_tokens": 101.47102803738318,
+      "prompt_tokens": 394.1607476635514
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "method": "strong_rerank",
+      "n": 535,
+      "f1": 31.917839443171463,
+      "em": 22.429906542056074,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 535
+      },
+      "evidence_tokens": 121.07289719626168,
+      "actual_reader_evidence_tokens": 112.61869158878504,
+      "prompt_tokens": 405.23364485981307
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "method": "quote_anchor",
+      "n": 535,
+      "f1": 56.67192574865963,
+      "em": 46.35514018691589,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 535
+      },
+      "evidence_tokens": 147.5607476635514,
+      "actual_reader_evidence_tokens": 136.90841121495328,
+      "prompt_tokens": 429.65794392523367
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "method": "strong_rerank",
+      "n": 535,
+      "f1": 44.334771420851105,
+      "em": 33.45794392523365,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 535
+      },
+      "evidence_tokens": 249.68598130841121,
+      "actual_reader_evidence_tokens": 231.90093457943925,
+      "prompt_tokens": 524.5252336448598
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "method": "quote_anchor",
+      "n": 535,
+      "f1": 57.421326154233185,
+      "em": 47.10280373831775,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 535
+      },
+      "evidence_tokens": 171.6448598130841,
+      "actual_reader_evidence_tokens": 159.0429906542056,
+      "prompt_tokens": 451.7981308411215
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "method": "strong_rerank",
+      "n": 535,
+      "f1": 48.88897531937374,
+      "em": 38.504672897196265,
+      "valid_percent": 99.81308411214953,
+      "statuses": {
+        "ok": 534,
+        "parse_failure": 1
+      },
+      "evidence_tokens": 378.9271028037383,
+      "actual_reader_evidence_tokens": 351.2691588785047,
+      "prompt_tokens": 643.9009345794393
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 512,
+      "method": "quote_anchor",
+      "n": 535,
+      "f1": 57.26560529294825,
+      "em": 46.54205607476635,
+      "valid_percent": 99.81308411214953,
+      "statuses": {
+        "ok": 534,
+        "parse_failure": 1
+      },
+      "evidence_tokens": 193.3626168224299,
+      "actual_reader_evidence_tokens": 179.22990654205609,
+      "prompt_tokens": 471.98504672897195
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 512,
+      "method": "strong_rerank",
+      "n": 535,
+      "f1": 47.59746502894251,
+      "em": 37.00934579439252,
+      "valid_percent": 100,
+      "statuses": {
+        "ok": 535
+      },
+      "evidence_tokens": 507.2280373831776,
+      "actual_reader_evidence_tokens": 470.1570093457944,
+      "prompt_tokens": 762.7906542056074
+    }
+  ],
+  "comparisons": [
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 7.329158222729651,
+        "ci95_points": [
+          5.6117946438482145,
+          9.136725865404436
+        ],
+        "simultaneous_ci95_points": [
+          4.716007354490047,
+          9.942309090969253
+        ]
+      },
+      "em": {
+        "delta_points": 7.071428571428571,
+        "ci95_points": [
+          5.214285714285714,
+          8.857142857142856
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 8.540302200134134,
+        "ci95_points": [
+          6.757592443737403,
+          10.391141225837657
+        ],
+        "simultaneous_ci95_points": [
+          5.837572860060017,
+          11.243031540208252
+        ]
+      },
+      "em": {
+        "delta_points": 8.142857142857144,
+        "ci95_points": [
+          6.214285714285714,
+          10.071428571428571
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 6.768082473082475,
+        "ci95_points": [
+          5.168893031571601,
+          8.466499962339249
+        ],
+        "simultaneous_ci95_points": [
+          4.333355537337977,
+          9.202809408826973
+        ]
+      },
+      "em": {
+        "delta_points": 6.928571428571429,
+        "ci95_points": [
+          5.214285714285714,
+          8.785714285714285
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 512,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 4.99804861559395,
+        "ci95_points": [
+          3.466008122829551,
+          6.598553610249157
+        ],
+        "simultaneous_ci95_points": [
+          2.673057751710982,
+          7.323039479476917
+        ]
+      },
+      "em": {
+        "delta_points": 5.5,
+        "ci95_points": [
+          3.785714285714286,
+          7.285714285714286
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 6.566805449239017,
+        "ci95_points": [
+          4.877791192234468,
+          8.289440486421837
+        ],
+        "simultaneous_ci95_points": [
+          4.021049267209349,
+          9.112561631268685
+        ]
+      },
+      "em": {
+        "delta_points": 6.214285714285714,
+        "ci95_points": [
+          4.357142857142858,
+          8.071428571428571
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 9.279298972708197,
+        "ci95_points": [
+          7.220429561028187,
+          11.282206576272262
+        ],
+        "simultaneous_ci95_points": [
+          6.270943261422588,
+          12.287654683993805
+        ]
+      },
+      "em": {
+        "delta_points": 7.928571428571428,
+        "ci95_points": [
+          5.714285714285714,
+          10.071428571428571
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 8.175903878131981,
+        "ci95_points": [
+          6.222098444593546,
+          10.153236739216128
+        ],
+        "simultaneous_ci95_points": [
+          5.256325700918811,
+          11.09548205534515
+        ]
+      },
+      "em": {
+        "delta_points": 7.642857142857143,
+        "ci95_points": [
+          5.5,
+          9.785714285714285
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 512,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 8.03670499574982,
+        "ci95_points": [
+          6.163622359846201,
+          9.92212957790663
+        ],
+        "simultaneous_ci95_points": [
+          5.233699874413968,
+          10.839710117085673
+        ]
+      },
+      "em": {
+        "delta_points": 7.7142857142857135,
+        "ci95_points": [
+          5.571428571428571,
+          9.857142857142858
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 16.3167652700363,
+        "ci95_points": [
+          12.9206195569067,
+          19.799947175301195
+        ],
+        "simultaneous_ci95_points": [
+          11.215935739910673,
+          21.417594800161925
+        ]
+      },
+      "em": {
+        "delta_points": 15.700934579439252,
+        "ci95_points": [
+          12.267570316335835,
+          19.252336448598133
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 16.818682110369267,
+        "ci95_points": [
+          12.851575971507135,
+          20.808018138350743
+        ],
+        "simultaneous_ci95_points": [
+          10.960315152446581,
+          22.677049068291954
+        ]
+      },
+      "em": {
+        "delta_points": 17.009345794392523,
+        "ci95_points": [
+          13.084112149532709,
+          21.06285534904439
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 11.401795777595089,
+        "ci95_points": [
+          7.762852553148608,
+          15.071945728713684
+        ],
+        "simultaneous_ci95_points": [
+          5.997669376448582,
+          16.805922178741596
+        ]
+      },
+      "em": {
+        "delta_points": 10.654205607476635,
+        "ci95_points": [
+          6.941838649155723,
+          14.338919925512103
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 512,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 8.774791421618772,
+        "ci95_points": [
+          5.314520675681243,
+          12.140875516087348
+        ],
+        "simultaneous_ci95_points": [
+          3.7117446799051232,
+          13.83783816333242
+        ]
+      },
+      "em": {
+        "delta_points": 9.158878504672897,
+        "ci95_points": [
+          5.64945201988021,
+          12.639457810198499
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 13.576386535704843,
+        "ci95_points": [
+          10.456060318985855,
+          16.731284243297363
+        ],
+        "simultaneous_ci95_points": [
+          8.929717651057112,
+          18.223055420352573
+        ]
+      },
+      "em": {
+        "delta_points": 13.831775700934578,
+        "ci95_points": [
+          10.357815442561206,
+          17.235331632653057
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 12.337154327808529,
+        "ci95_points": [
+          8.751598922309215,
+          15.877660324989801
+        ],
+        "simultaneous_ci95_points": [
+          7.047015948096651,
+          17.627292707520407
+        ]
+      },
+      "em": {
+        "delta_points": 12.897196261682243,
+        "ci95_points": [
+          9.14179104477612,
+          16.728642004639855
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 8.532350834859445,
+        "ci95_points": [
+          4.964988045100318,
+          12.092677124193788
+        ],
+        "simultaneous_ci95_points": [
+          3.1577086257320905,
+          13.906993043986798
+        ]
+      },
+      "em": {
+        "delta_points": 8.598130841121495,
+        "ci95_points": [
+          4.655493482309125,
+          12.592592592592592
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 512,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 9.66814026400574,
+        "ci95_points": [
+          6.223278051366778,
+          13.205888130885047
+        ],
+        "simultaneous_ci95_points": [
+          4.464621167642723,
+          14.871659360368755
+        ]
+      },
+      "em": {
+        "delta_points": 9.532710280373832,
+        "ci95_points": [
+          5.794392523364486,
+          13.246268656716417
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "reference_budget": 512,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 2.3311096071357014,
+        "ci95_points": [
+          0.2994170143643241,
+          4.413729296969669
+        ],
+        "simultaneous_ci95_points": [
+          -0.6549403538167874,
+          5.31715956808819
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "reference_budget": 512,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 3.5422535845401844,
+        "ci95_points": [
+          1.94612127777746,
+          5.125652041487677
+        ],
+        "simultaneous_ci95_points": [
+          1.260156855039974,
+          5.8243503140403945
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "reference_budget": 512,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 1.7700338574885253,
+        "ci95_points": [
+          0.667233382108825,
+          2.8793982387274606
+        ],
+        "simultaneous_ci95_points": [
+          0.1582384952553438,
+          3.381829219721707
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "reference_budget": 512,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": -1.4698995465108027,
+        "ci95_points": [
+          -3.7557530320198254,
+          0.7827066408210253
+        ],
+        "simultaneous_ci95_points": [
+          -4.763296633385901,
+          1.8234975403642952
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "reference_budget": 512,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 1.242593976958377,
+        "ci95_points": [
+          -0.5216583037059185,
+          3.0133160450956162
+        ],
+        "simultaneous_ci95_points": [
+          -1.3253310907459792,
+          3.810519044662733
+        ]
+      }
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "reference_budget": 512,
+      "n": 1400,
+      "clusters": 1400,
+      "f1": {
+        "delta_points": 0.1391988823821605,
+        "ci95_points": [
+          -1.2624993022964897,
+          1.576068175480598
+        ],
+        "simultaneous_ci95_points": [
+          -1.9234406604866996,
+          2.2018384252510206
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "reference_budget": 512,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 7.541973848417527,
+        "ci95_points": [
+          3.167178154136048,
+          11.971538326973286
+        ],
+        "simultaneous_ci95_points": [
+          1.125422547400032,
+          13.958525149435022
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "reference_budget": 512,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 8.043890688750496,
+        "ci95_points": [
+          4.789659538148306,
+          11.421526411817565
+        ],
+        "simultaneous_ci95_points": [
+          3.2672454829223834,
+          12.820535894578612
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "reference_budget": 512,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 2.627004355976317,
+        "ci95_points": [
+          0.0959865281511638,
+          5.244517011065075
+        ],
+        "simultaneous_ci95_points": [
+          -1.1378277758366147,
+          6.391836487789249
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "reference_budget": 512,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 3.9082462716991033,
+        "ci95_points": [
+          -0.1952830698118606,
+          8.048756743789804
+        ],
+        "simultaneous_ci95_points": [
+          -2.077442110688384,
+          9.893934654086591
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "reference_budget": 512,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": 2.6690140638027895,
+        "ci95_points": [
+          -0.8271219349850076,
+          6.29307159900327
+        ],
+        "simultaneous_ci95_points": [
+          -2.504093477533794,
+          7.842121605139374
+        ]
+      }
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "reference_budget": 512,
+      "n": 535,
+      "clusters": 520,
+      "f1": {
+        "delta_points": -1.1357894291462944,
+        "ci95_points": [
+          -4.157119506279848,
+          1.812977061976968
+        ],
+        "simultaneous_ci95_points": [
+          -5.456213950859224,
+          3.1846350925666354
+        ]
+      }
+    }
+  ],
+  "both_valid_sensitivity": [
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "n": 1398,
+      "total": 1400,
+      "f1_delta_points": 7.411174185852297,
+      "em_delta_points": 7.1530758226037205
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "n": 1400,
+      "total": 1400,
+      "f1_delta_points": 8.540302200134132,
+      "em_delta_points": 8.142857142857144
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "n": 1400,
+      "total": 1400,
+      "f1_delta_points": 6.768082473082473,
+      "em_delta_points": 6.928571428571429
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Qwen3.5-9B",
+      "budget": 512,
+      "n": 1400,
+      "total": 1400,
+      "f1_delta_points": 4.99804861559395,
+      "em_delta_points": 5.5
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "n": 1397,
+      "total": 1400,
+      "f1_delta_points": 6.6548615823848465,
+      "em_delta_points": 6.299212598425196
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "n": 1400,
+      "total": 1400,
+      "f1_delta_points": 9.2792989727082,
+      "em_delta_points": 7.928571428571428
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "n": 1400,
+      "total": 1400,
+      "f1_delta_points": 8.175903878131981,
+      "em_delta_points": 7.642857142857143
+    },
+    {
+      "dataset": "hotpot",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 512,
+      "n": 1400,
+      "total": 1400,
+      "f1_delta_points": 8.036704995749822,
+      "em_delta_points": 7.7142857142857135
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 128,
+      "n": 527,
+      "total": 535,
+      "f1_delta_points": 16.35301868698453,
+      "em_delta_points": 15.749525616698293
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 256,
+      "n": 520,
+      "total": 535,
+      "f1_delta_points": 16.117938966117105,
+      "em_delta_points": 16.538461538461537
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 384,
+      "n": 519,
+      "total": 535,
+      "f1_delta_points": 10.051305217109903,
+      "em_delta_points": 9.633911368015415
+    },
+    {
+      "dataset": "musique",
+      "reader": "Qwen3.5-9B",
+      "budget": 512,
+      "n": 524,
+      "total": 535,
+      "f1_delta_points": 8.06840981660186,
+      "em_delta_points": 8.778625954198473
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 128,
+      "n": 535,
+      "total": 535,
+      "f1_delta_points": 13.576386535704843,
+      "em_delta_points": 13.831775700934578
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 256,
+      "n": 535,
+      "total": 535,
+      "f1_delta_points": 12.337154327808534,
+      "em_delta_points": 12.897196261682243
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 384,
+      "n": 534,
+      "total": 535,
+      "f1_delta_points": 8.548329019943449,
+      "em_delta_points": 8.614232209737828
+    },
+    {
+      "dataset": "musique",
+      "reader": "Phi-4-mini-instruct",
+      "budget": 512,
+      "n": 534,
+      "total": 535,
+      "f1_delta_points": 9.686245395586276,
+      "em_delta_points": 9.550561797752808
+    }
+  ],
+  "original_512_score_reproductions": 7740,
+  "preparation": {
+    "signature": "bc1a7af40cf445d9caef6aceb011c0f76573e7c8d750eb253996888fe8790f5a",
+    "logical_conditions": 30960,
+    "unique_requests": 20052,
+    "exact_reused_requests": 8118,
+    "new_requests_by_reader": {
+      "Qwen3.5-9B": 5967,
+      "Phi-4-mini-instruct": 5967
+    },
+    "original_512_reproductions": 7740,
+    "references_read": false,
+    "proposer_calls": 0,
+    "ranking_calls": 0,
+    "summaries": [
+      {
+        "dataset": "hotpot",
+        "budget": 128,
+        "n": 1400,
+        "admitted": 716,
+        "admission_percent": 51.142857142857146,
+        "fallback_reasons": {
+          "joint_quotes_over_budget": 441,
+          "joint_anchor_over_budget": 82,
+          "missing_role_quote": 159,
+          "baseline_selection_failure": 2
+        },
+        "effective_limit": {
+          "mean": 119.80571428571429,
+          "median": 122.0,
+          "p90": 128,
+          "max": 128,
+          "min": 66
+        },
+        "methods": {
+          "quote_anchor": {
+            "mean_tokens": 105.16785714285714,
+            "selection_failures": 2
+          },
+          "strong_rerank": {
+            "mean_tokens": 119.80571428571429,
+            "selection_failures": 0
+          }
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "budget": 256,
+        "n": 1400,
+        "admitted": 1233,
+        "admission_percent": 88.07142857142857,
+        "fallback_reasons": {
+          "missing_role_quote": 159,
+          "joint_quotes_over_budget": 7,
+          "joint_anchor_over_budget": 1
+        },
+        "effective_limit": {
+          "mean": 248.625,
+          "median": 251.0,
+          "p90": 256,
+          "max": 256,
+          "min": 96
+        },
+        "methods": {
+          "quote_anchor": {
+            "mean_tokens": 133.84142857142857,
+            "selection_failures": 0
+          },
+          "strong_rerank": {
+            "mean_tokens": 248.625,
+            "selection_failures": 0
+          }
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "budget": 384,
+        "n": 1400,
+        "admitted": 1239,
+        "admission_percent": 88.5,
+        "fallback_reasons": {
+          "missing_role_quote": 159,
+          "joint_quotes_over_budget": 1,
+          "joint_anchor_over_budget": 1
+        },
+        "effective_limit": {
+          "mean": 376.45142857142855,
+          "median": 380.0,
+          "p90": 384,
+          "max": 384,
+          "min": 96
+        },
+        "methods": {
+          "quote_anchor": {
+            "mean_tokens": 148.80857142857144,
+            "selection_failures": 0
+          },
+          "strong_rerank": {
+            "mean_tokens": 376.45142857142855,
+            "selection_failures": 0
+          }
+        }
+      },
+      {
+        "dataset": "hotpot",
+        "budget": 512,
+        "n": 1400,
+        "admitted": 1241,
+        "admission_percent": 88.64285714285714,
+        "fallback_reasons": {
+          "missing_role_quote": 159
+        },
+        "effective_limit": {
+          "mean": 503.825,
+          "median": 508.0,
+          "p90": 512,
+          "max": 512,
+          "min": 96
+        },
+        "methods": {
+          "quote_anchor": {
+            "mean_tokens": 163.36,
+            "selection_failures": 0
+          },
+          "strong_rerank": {
+            "mean_tokens": 503.825,
+            "selection_failures": 0
+          }
+        }
+      },
+      {
+        "dataset": "musique",
+        "budget": 128,
+        "n": 535,
+        "admitted": 241,
+        "admission_percent": 45.046728971962615,
+        "fallback_reasons": {
+          "joint_quotes_over_budget": 145,
+          "missing_role_quote": 88,
+          "joint_anchor_over_budget": 61
+        },
+        "effective_limit": {
+          "mean": 121.07289719626168,
+          "median": 123,
+          "p90": 128,
+          "max": 128,
+          "min": 101
+        },
+        "methods": {
+          "quote_anchor": {
+            "mean_tokens": 109.1196261682243,
+            "selection_failures": 0
+          },
+          "strong_rerank": {
+            "mean_tokens": 121.07289719626168,
+            "selection_failures": 0
+          }
+        }
+      },
+      {
+        "dataset": "musique",
+        "budget": 256,
+        "n": 535,
+        "admitted": 432,
+        "admission_percent": 80.74766355140187,
+        "fallback_reasons": {
+          "missing_role_quote": 88,
+          "joint_quotes_over_budget": 8,
+          "joint_anchor_over_budget": 7
+        },
+        "effective_limit": {
+          "mean": 249.68598130841121,
+          "median": 251,
+          "p90": 256,
+          "max": 256,
+          "min": 226
+        },
+        "methods": {
+          "quote_anchor": {
+            "mean_tokens": 147.5607476635514,
+            "selection_failures": 0
+          },
+          "strong_rerank": {
+            "mean_tokens": 249.68598130841121,
+            "selection_failures": 0
+          }
+        }
+      },
+      {
+        "dataset": "musique",
+        "budget": 384,
+        "n": 535,
+        "admitted": 444,
+        "admission_percent": 82.99065420560747,
+        "fallback_reasons": {
+          "missing_role_quote": 88,
+          "joint_anchor_over_budget": 2,
+          "joint_quotes_over_budget": 1
+        },
+        "effective_limit": {
+          "mean": 378.9271028037383,
+          "median": 381,
+          "p90": 384,
+          "max": 384,
+          "min": 359
+        },
+        "methods": {
+          "quote_anchor": {
+            "mean_tokens": 171.6448598130841,
+            "selection_failures": 0
+          },
+          "strong_rerank": {
+            "mean_tokens": 378.9271028037383,
+            "selection_failures": 0
+          }
+        }
+      },
+      {
+        "dataset": "musique",
+        "budget": 512,
+        "n": 535,
+        "admitted": 446,
+        "admission_percent": 83.3644859813084,
+        "fallback_reasons": {
+          "missing_role_quote": 88,
+          "joint_quotes_over_budget": 1
+        },
+        "effective_limit": {
+          "mean": 507.2280373831776,
+          "median": 508,
+          "p90": 512,
+          "max": 512,
+          "min": 486
+        },
+        "methods": {
+          "quote_anchor": {
+            "mean_tokens": 193.3626168224299,
+            "selection_failures": 0
+          },
+          "strong_rerank": {
+            "mean_tokens": 507.2280373831776,
+            "selection_failures": 0
+          }
+        }
+      }
+    ]
+  },
+  "scope": "Supplementary fixed-budget strategy comparison on the existing exposed panels",
+  "automatic_expansion": false,
+  "bootstrap": {
+    "draws": 10000,
+    "joint_f1_family_size": 16,
+    "interaction_family_size": 12,
+    "f1_max_standardized_critical": 2.9136461378712735,
+    "interaction_max_standardized_critical": 2.844544738569162
+  },
+  "original_primary_decisions_unchanged": true,
+  "source_analysis_sha256": "195227836d082ae38e7b3e7c3a507a63d9e20449f0513da9113a0d199de727b6"
+}
